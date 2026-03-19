@@ -61,8 +61,8 @@ condicion_socioeconomica = (nivel_socieconomico == 1) and (promedio > 8.0)
 obtiene_beca = condicion_promedio_alto or condicion_socioeconomica 
 
 print("¿cumple con la condicion del promedio alto?", condicion_promedio_alto)
-print("¿cumple con la condicion socioeconomica?" , condicion_apoyo)
-print("¿Obtiene la beca?", obtiene la beca)
+print("¿cumple con la condicion socioeconomica?" , condicion_socioeconomica)
+print("¿Obtiene la beca?", obtiene_beca)
 ```
 **Captura de pantalla**
 ![Ejercicio3](images/Ejercicio3_sistemas_becas.png)
